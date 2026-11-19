@@ -6,7 +6,7 @@
 /*   By: alavryk <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/15 22:03:10 by alavryk           #+#    #+#             */
-/*   Updated: 2026/11/18 22:47:06 by alavryk          ###   ########.fr       */
+/*   Updated: 2026/11/19 04:08:54 by alavryk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 
 # define MX_FD 1024
 # ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 10
+#  define BUFFER_SIZE 1024
 # endif
 
 char	*ft_strchr(const char *s, int c);
